@@ -29,7 +29,47 @@
       h2 
 
 
+    .tit.mb-5(data-aos="fade-right")
+      img(:src="require_src('@/assets/curso/tema1/sub.svg')")
+      h3.mb-0 
 
+
+
+    .tit.mb-5(data-aos="fade-right")
+      img(:src="require_src('@/assets/curso/tema1/sub.svg')")
+      h3.mb-0 
+
+    .tit.mb-5(data-aos="fade-right")
+      img(:src="require_src('@/assets/curso/tema1/sub.svg')")
+      h3.mb-0 
+
+
+
+    .tit.mb-5(data-aos="fade-right")
+      img(:src="require_src('@/assets/curso/tema1/sub.svg')")
+      h3.mb-0 
+      
+
+    .tit.mb-5(data-aos="fade-right")
+      img(:src="require_src('@/assets/curso/tema1/sub.svg')")
+      h3.mb-0 
+
+
+
+    .tit.mb-5(data-aos="fade-right")
+      img(:src="require_src('@/assets/curso/tema1/sub.svg')")
+      h3.mb-0 
+
+    .tit.mb-5(data-aos="fade-right")
+      img(:src="require_src('@/assets/curso/tema1/sub.svg')")
+      h3.mb-0 
+
+
+
+    .tit.mb-5(data-aos="fade-right")
+      img(:src="require_src('@/assets/curso/tema1/sub.svg')")
+      h3.mb-0 
+      
 
 
 

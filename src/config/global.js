@@ -42,51 +42,35 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo:
+              'Sostenibilidad, calidad, sellos ambientales y normas técnicas sectoriales',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Subtema 1',
+            titulo:
+              'Operación sostenible, certificación y destinos turísticos certificados',
             hash: 't_1_2',
-          },
-          {
-            numero: '1.3',
-            titulo: 'Subtema 1',
-            hash: 't_1_3',
-          },
-          {
-            numero: '1.4',
-            titulo: 'Subtema 1',
-            hash: 't_1_4',
           },
         ],
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Accesibilidad turística en los servicios de alojamiento',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Subtema 1',
+            titulo:
+              'Antecedentes, principios de accesibilidad y diseño universal',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Subtema 1',
+            titulo:
+              'Componentes accesibles, impacto operativo y normativa sectorial',
             hash: 't_2_2',
-          },
-          {
-            numero: '2.3',
-            titulo: 'Subtema 1',
-            hash: 't_2_3',
-          },
-          {
-            numero: '2.4',
-            titulo: 'Subtema 1',
-            hash: 't_2_4',
           },
         ],
       },

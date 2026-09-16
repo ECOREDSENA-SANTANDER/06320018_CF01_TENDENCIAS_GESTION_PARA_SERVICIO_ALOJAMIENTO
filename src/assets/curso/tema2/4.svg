@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61.899" height="61.899" viewBox="0 0 61.899 61.899">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_479333" data-name="Rectángulo 479333" width="35.445" height="32.223" fill="#194e57"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1214374" data-name="Grupo 1214374" transform="translate(-303.101 -1616.901)">
+    <g id="Grupo_1214373" data-name="Grupo 1214373">
+      <g id="Grupo_1072055" data-name="Grupo 1072055" transform="translate(303.101 1616.901)">
+        <g id="Grupo_1072053" data-name="Grupo 1072053">
+          <ellipse id="Elipse_4742" data-name="Elipse 4742" cx="30.949" cy="30.949" rx="30.949" ry="30.949" transform="translate(0)" fill="#c5edf4"/>
+        </g>
+        <g id="Grupo_1214307" data-name="Grupo 1214307" transform="translate(13.227 14.819)">
+          <path id="Trazado_1055427" data-name="Trazado 1055427" d="M0,286v2.077H15.888L9.657,298.461h16.13l-6.231-10.384H35.445V286Z" transform="translate(0 -266.201)" fill="#194e57"/>
+          <g id="Grupo_1214308" data-name="Grupo 1214308">
+            <g id="Grupo_1214307-2" data-name="Grupo 1214307" clip-path="url(#clip-path)">
+              <path id="Trazado_1055428" data-name="Trazado 1055428" d="M34.154,46A4.154,4.154,0,1,1,30,50.154,4.154,4.154,0,0,1,34.154,46" transform="translate(-27.923 -42.816)" fill="#194e57"/>
+              <path id="Trazado_1055429" data-name="Trazado 1055429" d="M9.346,166H3.115A3.119,3.119,0,0,0,0,169.115v3.115H12.461v-3.115A3.119,3.119,0,0,0,9.346,166" transform="translate(0 -154.508)" fill="#194e57"/>
+              <path id="Trazado_1055430" data-name="Trazado 1055430" d="M366.154,46A4.154,4.154,0,1,1,362,50.154,4.154,4.154,0,0,1,366.154,46" transform="translate(-336.939 -42.816)" fill="#194e57"/>
+              <path id="Trazado_1055431" data-name="Trazado 1055431" d="M341.346,166h-6.231A3.119,3.119,0,0,0,332,169.115v3.115h12.461v-3.115A3.119,3.119,0,0,0,341.346,166" transform="translate(-309.016 -154.508)" fill="#194e57"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

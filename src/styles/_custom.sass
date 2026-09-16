@@ -71,7 +71,7 @@ figcaption
 .titulo-sexto
   border-left: 10px solid
   padding: 6px 0 6px 8px
-  border-left-color: #1D4E89 !important
+  border-left-color: #FF9684 !important
 
 .titulo-segundo:after 
   content: ''
@@ -79,7 +79,7 @@ figcaption
   height: 4.5px
   width: 140px
   border-left: solid 50px
-  border-left-color: #1D4E89
+  border-left-color: #FF9684
   background-color: #DBDADA
 
 .cen
@@ -96,34 +96,264 @@ figcaption
   margin: auto
 
 
-
-
 .bg1
   background-color: #C5EDF4
 
-
-
-
-
-
-
-
+.cajon.color-primario
+  background-color: #EBF9FB
+  &:before 
+    background-color:#40C4D9
 
 .bg2
-  background-color: #EEFAE9
+  background-color: #CEF1D4
+  min-height: 288.89px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  @media only screen and (max-width: 767px)
+    min-height: auto 
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    min-height: auto
 
-.blue
-  color: #1D4E89
+.tit
+  background-color: #5CD172
+  border-radius: 50px 
+  width: fit-content
+  padding: 8px 30px 8px 50px
+  position: relative
+  display: inline-flex
+  align-items: center
+  margin-left: 15px
+  & 
+    h3
+      color: black
+.tit img
+  width: 50px
+  height: 50px
+  position: absolute
+  top: 37%
+  left: -18px 
+  transform: translateY(-50%)
+  object-fit: contain
+  z-index: 1
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    width: 55px
+    height: 55px
+    top: 40%
+  @media only screen and (max-width: 767px)
+    top: 48%
+    width: 55px
+    height: 55px
+
+.tabs-c.color-primario .tabs-c__tab--active 
+  border-bottom-color: #FBB132!important
+  background-color: #FFF7EA
+  color: black !important
+  font-weight: 900
+.tabs-c__tab 
+  background-color: #EBF9FB
+  color: black
+  border-bottom: 6px solid #C5EDF4
+.tabs-c.color-primario .tabs-c__tab--active:before 
+  border-top-color: #FBB132
+.tabs-c__tab--active 
+  border-bottom: 6px solid !important
+.tabs-c__header 
+  margin-bottom: -7px
+.tabs-c__tab:after 
+  width: 2.5px
+  height: 25px
+  top: 50%
+  right: -2px
+  background-color: #E0E0E0
+//.fd3
+  background: url('../assets/curso/tema1/fondo1.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: bottom
+//.tabs-c
+  border-bottom: none
+
+@media only screen and (min-width: 1024px)
+  .p-5.fon
+    padding: 2.6rem !important
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+  .p-5.fon
+    padding: 2.2rem !important
+@media only screen and (max-width: 767px)
+  .p-5.fon
+    padding: 1.2rem !important
+.fd1
+  background: url('../assets/curso/tema1/fd1.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3.4rem
+  @media only screen and (min-width: 1024px)
+    margin-bottom: -44px !important
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+    background-size:  100% 100%
+
+.bloque-texto-g.color-primario
+  border-radius: 0px
+  .bloque-texto-g__texto 
+    position: relative
+    width: 64%
+    @media only screen and (max-width: 767px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+    @media only screen and (min-width: 768px) and (max-width: 1023px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+
+.acordion__accion__btn--b
+  background-color: #FBB132
+  transition: all 0.3s ease-out
+  border:#FBB132
+  color: black
+.acordion__activo
+  background-color: #EBF9FB !important
+  transition: all 0.3s ease-out
+  h3
+    color: black !important
+.tarjeta--grey
+  border-radius: 20px
+  background-color: #FFDFDA
+  //h3
+    color: white
+.acordion.press .acordion__activo .acordion__accion__btn--b
+  background-color:#FBB132
+  color: black
+
+.tarjetaf
+  background: url('../assets/curso/tema1/fd2.png')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 20px
+  overflow: hidden
+  transition: transform 0.3s ease
+  //&
+    h4, p
+      color: white
+.slyder-a__bullets__item 
+  background-color: #FFF7EA
+  border-color: #FFF7EA
+.slyder-a__bullets__item--active 
+  background-color: #FBB132 !important
+  border-color: #FBB132 !important
+.slyder-a__tipo-b .slyder-a__btn--sigt 
+  background-color: #FBB132
+.slyder-a__tipo-b .slyder-a__btn--atrs 
+  background-color: #FBB132
+
+.cajon.color-secundario
+  background-color: #EEFBF1
+  &:before 
+    background-color:#5CD172
+
+.pasos-a__linea__esquina__linea 
+  border: 3px solid
+  width: 100%
+  position: relative
+  border-radius: 0px
+@media only screen and (max-width: 767px)
+  .cel
+    display: none
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+  .cel
+    display: none
 
 .bg3
-  background-color: #E8EDF3
-
+  background-color: #40C4D9
+  border-radius: 18px 0px 0px 18px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 18px 0px 0px 18px
 .bg4
-  background-color: #3B130C
-  border-radius: 20px
+  background-color: #194E57
+  border-radius: 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 0px 18px 18px 0px
 .bg5
-  background-color: #59CA2F
-  border-radius: 20px 
+  background-color:#40C4D9
+  border-radius: 0px 18px 18px 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 20px
 
-.color-terciario
-  background-color: #1A2018
+.bg6
+  background-color:#CEF1D4
+
+.tabs-b__tab 
+  padding: 20px
+  background-color: #EBF9FB
+  border-right: 4px solid #9CC2C9
+  border-top: 4px solid transparent  
+  cursor: pointer
+  transition: all 0.3s ease
+  border-bottom: none
+  .tabs-b__tab__title 
+    font-size: 0.99em
+.tabs-b.color-acento-contenido .tabs-b__tab--active 
+  border-top: 6px solid #FE8938 !important  
+  background-color: #FFF7EA
+  border-right: 4px solid #9CC2C9
+  border-bottom: none
+  //img
+    cursor: pointer
+    content: url("../assets/curso/tema2/19.svg") !important
+
+.bloque-texto-g.color-secundario 
+    background-color: #CEF1D4
+
+.acordion__accion__btn--a
+  background-color: #FBB132
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+.acordion .tarjeta--azull
+  background-color: #C5EDF4
+  h3
+    color: black
+.acordion__accion__btn--a i, .acordion__accion__btn--b i .activ
+  color: black
+.acordion.activ .acordion__activo .acordion__accion__btn--a
+  background-color: #FBB132
+  i
+    color: black !important
+.activ
+  .acordion__activo 
+    background-color: #EBF9FB !important
+    transition: all 0.3s ease-out
+    h3
+      color: black 
+
+.bg7
+  background: url('../assets/curso/tema2/f1.png')
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  background-position: center
+  border-radius: 20px
+  transition: all 0.3s ease
+  cursor: pointer
+  &:hover 
+    background: url('../assets/curso/tema2/f2.png')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: center
+    border-radius: 20px
+    transition: all 0.3s ease
+    cursor: pointer
+
+
+
