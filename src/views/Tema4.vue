@@ -21,16 +21,16 @@
     #t_4_1.titulo-segundo.mb-5
       h2 4.1 Sistemas de gestión, herramientas tecnológicas y automatización
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema4/3.png')
       .col-lg-7
         p.mb-4 La digitalización integral de la industria del alojamiento constituye un pilar estratégico para la eficiencia administrativa, la optimización financiera y la competitividad en los mercados globales. La incorporación de plataformas informáticas especializadas permite centralizar flujos operativos complejos, reducir los márgenes de error humano en la administración de inventarios, automatizar la distribución multicanal y responder con agilidad analítica a las fluctuaciones de la demanda turística (Organización Mundial del Turismo, 2023).
         p.mb-0 La infraestructura informática de un establecimiento de alojamiento moderno se apoya principalmente en los Sistemas de Gestión de Propiedades (PMS, #[em Property Management Systems]). Estas plataformas de #[em software] integran las operaciones del área de atención al huésped o #[em front office] y las actividades administrativas del #[em back office], lo que facilita la trazabilidad de las transacciones comerciales y financieras (Hayes et al., 2023).
 
-    p.mb-5 El PMS constituye una herramienta tecnológica central para la operación hotelera, debido a que integra la información relacionada con reservas, huéspedes, habitaciones, tarifas y facturación. Su uso facilita la gestión cotidiana de los procesos y proporciona datos relevantes para la toma de decisiones.
+    p.mb-5(data-aos="fade-left") El PMS constituye una herramienta tecnológica central para la operación hotelera, debido a que integra la información relacionada con reservas, huéspedes, habitaciones, tarifas y facturación. Su uso facilita la gestión cotidiana de los procesos y proporciona datos relevantes para la toma de decisiones.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Figura 1. 
@@ -70,21 +70,21 @@
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema4/7.png')
 
-    p.mb-5 La integración de estos módulos evita que la información permanezca dispersa entre las diferentes áreas del establecimiento. También facilita que los equipos de recepción, administración y ama de llaves consulten datos actualizados y coordinen sus actividades a partir de una misma plataforma.
+    p.mb-5(data-aos="fade-right") La integración de estos módulos evita que la información permanezca dispersa entre las diferentes áreas del establecimiento. También facilita que los equipos de recepción, administración y ama de llaves consulten datos actualizados y coordinen sus actividades a partir de una misma plataforma.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .cajon.color-primario.p-lg-5.p-4
           h4.mb-3 Gestión hotelera desde la nube
           p.mb-0 La transición hacia arquitecturas de PMS basadas en #[em cloud computing] reduce la dependencia de servidores físicos locales, disminuye los costos de mantenimiento de la infraestructura informática y permite sincronizar los datos financieros y operativos desde diferentes ubicaciones autorizadas (Vicerrectoría Académica UTS, 2023).
 
-    p.mb-5 Además del PMS, el ecosistema tecnológico hotelero incluye soluciones especializadas que responden a las necesidades comerciales, financieras y operativas del sector. Su capacidad de integración permite relacionar el inventario del establecimiento con los canales de venta y los sistemas internos de control.
+    p.mb-5(data-aos="fade-right") Además del PMS, el ecosistema tecnológico hotelero incluye soluciones especializadas que responden a las necesidades comerciales, financieras y operativas del sector. Su capacidad de integración permite relacionar el inventario del establecimiento con los canales de venta y los sistemas internos de control.
 
-    .tit.mb-5(data-aos="fade-right")
+    .tit.mb-5(data-aos="fade-left")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Soluciones tecnológicas para la operación hotelera
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         TabsC.color-primario
           .p-lg-5.p-4.fd3(titulo="Control de inventarios")
@@ -107,7 +107,7 @@
                 p.mb-4 Estas soluciones relacionan los consumos de restaurantes, centros de bienestar, lavandería y otros servicios con los balances contables generales. También facilitan las auditorías financieras, el cálculo de indicadores como ADR, RevPAR y GOPPAR y el cumplimiento de las obligaciones fiscales (Revfine, s. f.).
                 p.mb-0 La transformación digital también puede apoyar el cumplimiento de los compromisos ambientales. Los sistemas conectados permiten controlar consumos, programar mantenimientos y generar información útil para evaluar el desempeño sostenible del establecimiento.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Figura 2. 
@@ -115,7 +115,7 @@
         .bg9.p-4.p-lg-5
           img.img-a.img-t(src='@/assets/curso/tema4/11.svg', alt='Software PMS monitorea energía, agua, residuos y emisiones para generar reportes, apoyar decisiones y mejorar la sostenibilidad.')
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-7 
         p.mb-4 Los sistemas inteligentes pueden regular la iluminación, la temperatura y el consumo hídrico según la ocupación real. Asimismo, permiten detectar consumos anómalos, programar mantenimientos preventivos, generar alertas y producir informes periódicos sobre energía, agua, residuos y emisiones.
         p.mb-4 Estos reportes sirven como apoyo para evaluar el cumplimiento de las políticas sostenibles, documentar los resultados de la gestión y respaldar procesos de certificación. De esta manera, la transformación digital y la sostenibilidad se integran dentro de una operación más eficiente, competitiva y responsable con el entorno.
@@ -123,11 +123,11 @@
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema4/12.png')
 
-    .tit.mb-5(data-aos="fade-right")
+    .tit.mb-5(data-aos="fade-left")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Automatización de los servicios hoteleros
 
-    .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-left")
+    .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-right")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg7.p-lg-5.p-4
           img.img-t.img-a.mb-4(src='@/assets/curso/tema4/13.svg')
@@ -146,7 +146,7 @@
           h4.mb-4.text-center Sistemas domóticos de habitación
           p.mb-0.text-center Los dispositivos inteligentes permiten controlar la iluminación, la climatización, el cortinaje y los sistemas multimedia mediante aplicaciones o comandos de voz.  Estas soluciones incrementan la comodidad, facilitan la personalización del ambiente y optimizan el consumo energético.
 
-    p.mb-0 La incorporación de estas innovaciones libera al personal de algunas tareas repetitivas y le permite concentrarse en actividades que requieren interacción humana, orientación y resolución de necesidades específicas. Al mismo tiempo, responde a las expectativas de huéspedes que valoran la agilidad, la conectividad y la inmediatez en los servicios.
+    p.mb-0(data-aos="fade-left") La incorporación de estas innovaciones libera al personal de algunas tareas repetitivas y le permite concentrarse en actividades que requieren interacción humana, orientación y resolución de necesidades específicas. Al mismo tiempo, responde a las expectativas de huéspedes que valoran la agilidad, la conectividad y la inmediatez en los servicios.
 
 
     separador
@@ -184,7 +184,7 @@
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema4/17.png')
 
-    p.mb-5 Estas características hacen necesario reconocer las motivaciones y los comportamientos de los diferentes segmentos. La clasificación basada únicamente en variables demográficas ha sido complementada por modelos psicográficos y conductuales, en los que el propósito del viaje determina el diseño de la oferta comercial.
+    p.mb-5(data-aos="fade-right") Estas características hacen necesario reconocer las motivaciones y los comportamientos de los diferentes segmentos. La clasificación basada únicamente en variables demográficas ha sido complementada por modelos psicográficos y conductuales, en los que el propósito del viaje determina el diseño de la oferta comercial.
 
     .tit.mb-5(data-aos="fade-right")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
@@ -209,9 +209,9 @@
           p.mb-0.text-center Combina los desplazamientos laborales con actividades de ocio y estancias prolongadas.  
           p.mb-0.text-center Este segmento requiere tarifas flexibles de larga estancia, áreas de trabajo ergonómicas y servicios complementarios adaptados a la productividad digital.
 
-    p.mb-5 La identificación de estas motivaciones permite ajustar los mensajes, las tarifas, los servicios y los canales de comunicación. Así, la segmentación contribuye a que la propuesta del establecimiento responda de manera diferenciada a quienes viajan por descanso, negocios o por una combinación de actividades laborales y recreativas.
+    p.mb-5(data-aos="fade-right") La identificación de estas motivaciones permite ajustar los mensajes, las tarifas, los servicios y los canales de comunicación. Así, la segmentación contribuye a que la propuesta del establecimiento responda de manera diferenciada a quienes viajan por descanso, negocios o por una combinación de actividades laborales y recreativas.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema4/21.png')
       .col-lg-7
@@ -231,13 +231,13 @@
               ).mb-4
                 p.mb-0 Amplíe la comprensión del #[em neuromarketing] mediante este pódcast, en el que se analizan el #[em marketing] olfativo, la atmósfera acústica, la regulación lumínica y la arquitectura de decisiones digitales aplicadas a los establecimientos de alojamiento.
     
-    p.mb-5 Además de influir en la experiencia dentro del establecimiento, las estrategias de #[em marketing] deben comunicar sus atributos mediante canales capaces de llegar a públicos específicos. La publicidad hotelera combina acciones orientadas a captar usuarios con intención de reserva, generar interés por la propuesta de servicio, recuperar procesos de compra abandonados y fortalecer la fidelización de los clientes.
+    p.mb-5(data-aos="fade-right") Además de influir en la experiencia dentro del establecimiento, las estrategias de #[em marketing] deben comunicar sus atributos mediante canales capaces de llegar a públicos específicos. La publicidad hotelera combina acciones orientadas a captar usuarios con intención de reserva, generar interés por la propuesta de servicio, recuperar procesos de compra abandonados y fortalecer la fidelización de los clientes.
 
     .tit.mb-5(data-aos="fade-right")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Canales de publicidad hotelera
 
-    TabsB.color-acento-contenido.mb-5(data-aos="fade-left")
+    TabsB.color-acento-contenido.tabs-tema-4.mb-5(data-aos="fade-left")
       .py-4.py-md-5(titulo="Posicionamiento en motores de búsqueda" :icono="require_src('@/assets/curso/tema4/23.svg')")
         .row.justify-content-center.align-items-start.mb-0
           .col-lg-4.col-md-9.col-10.order-md-2.order-2.order-lg-1
@@ -267,7 +267,7 @@
             p.mb-4 Las comunicaciones se dirigen a clientes recurrentes y a integrantes de la base de datos propia, de acuerdo con sus características y con su historial de relación con el establecimiento.
             p.mb-0 Su propósito es incentivar la recompra directa y evitar el pago de altas comisiones a intermediarios, como las agencias de viajes en línea.
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema4/31.png')
       .col-lg-7

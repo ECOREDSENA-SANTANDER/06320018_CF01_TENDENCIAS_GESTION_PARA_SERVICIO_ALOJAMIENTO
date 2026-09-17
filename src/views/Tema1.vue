@@ -21,15 +21,15 @@
     #t_1_1.titulo-segundo.mb-5
       h2 1.1 Sostenibilidad, calidad, sellos ambientales y normas técnicas sectoriales
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         img(src='@/assets/curso/tema1/3.png')
     
-    p.mb-4 La sostenibilidad turística se define como un modelo de gestión que busca el equilibrio dinámico entre tres dimensiones esenciales: la viabilidad económica a largo plazo de la empresa hotelera, la integridad ecológica de los ecosistemas donde opera y la equidad social y cultural de las comunidades receptoras (Organización Mundial del Turismo, 2022). En el contexto del servicio de alojamiento, este enfoque implica transformar las rutinas operativas cotidianas para reducir de manera sistemática la huella de carbono, optimizar el consumo de recursos hídricos y energéticos y minimizar la generación de residuos sólidos mediante la aplicación de principios de economía circular.
+    p.mb-4(data-aos="fade-left") La sostenibilidad turística se define como un modelo de gestión que busca el equilibrio dinámico entre tres dimensiones esenciales: la viabilidad económica a largo plazo de la empresa hotelera, la integridad ecológica de los ecosistemas donde opera y la equidad social y cultural de las comunidades receptoras (Organización Mundial del Turismo, 2022). En el contexto del servicio de alojamiento, este enfoque implica transformar las rutinas operativas cotidianas para reducir de manera sistemática la huella de carbono, optimizar el consumo de recursos hídricos y energéticos y minimizar la generación de residuos sólidos mediante la aplicación de principios de economía circular.
 
-    p.mb-5 Paralelamente, la calidad turística en la hotelería contemporánea deja de interpretarse únicamente como el lujo material o la suntuosidad de la infraestructura para concebirse como un atributo multidimensional, enfocado en el cumplimiento de las expectativas del huésped, la mejora continua de los procesos internos y el respeto por el marco regulatorio sectorial. La calidad y la sostenibilidad actúan como elementos sinérgicos: un establecimiento que optimiza sus procesos mediante prácticas sostenibles incrementa su eficiencia operativa, reduce sus costos financieros y fortalece su reputación corporativa frente a un consumidor cada vez más consciente y exigente.
+    p.mb-5(data-aos="fade-right") Paralelamente, la calidad turística en la hotelería contemporánea deja de interpretarse únicamente como el lujo material o la suntuosidad de la infraestructura para concebirse como un atributo multidimensional, enfocado en el cumplimiento de las expectativas del huésped, la mejora continua de los procesos internos y el respeto por el marco regulatorio sectorial. La calidad y la sostenibilidad actúan como elementos sinérgicos: un establecimiento que optimiza sus procesos mediante prácticas sostenibles incrementa su eficiencia operativa, reduce sus costos financieros y fortalece su reputación corporativa frente a un consumidor cada vez más consciente y exigente.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .cajon.color-primario.p-lg-5.p-4
           h4.mb-3 Integración de calidad y sostenibilidad
@@ -100,11 +100,11 @@
             br 
             p.mb-0 El funcionamiento del turismo sostenible en los establecimientos de alojamiento y hospedaje se sustenta en un enfoque de gestión por procesos que evalúa permanentemente el ciclo de vida de los servicios ofrecidos. Esta estructura integra tres dimensiones interdependientes que favorecen la viabilidad a largo plazo de la empresa turística (Organización Mundial del Turismo, 2022).
 
-    .tit.mb-5(data-aos="fade-right")
+    .tit.mb-5(data-aos="fade-left")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Dimensiones de la operación turística sostenible
 
-    .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-right")
       .col-lg-8
         AcordionA.press(tipo="b" clase-tarjeta="tarjeta tarjeta--grey")
           .row.align-items-center(titulo="Gestión integral de recursos naturales y ecosistemas")
@@ -124,7 +124,7 @@
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema1/11.png')
 
-    p.mb-5 La dimensión ambiental se concreta mediante estrategias operativas y componentes tecnológicos que permiten reducir el consumo energético, identificar desperdicios y tomar decisiones sustentadas en información verificable.
+    p.mb-5(data-aos="fade-left") La dimensión ambiental se concreta mediante estrategias operativas y componentes tecnológicos que permiten reducir el consumo energético, identificar desperdicios y tomar decisiones sustentadas en información verificable.
 
     .tit.mb-5(data-aos="fade-right")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
@@ -171,17 +171,17 @@
                   .col-lg-6.col-md-8
                     img.mb-0(src="@/assets/curso/tema1/15.png")
     
-    p.mb-5 La incorporación de estas tecnologías fortalece la eficiencia operativa del establecimiento; sin embargo, su implementación debe acompañarse de mecanismos que permitan comprobar los resultados alcanzados. La medición periódica facilita la identificación de avances, desviaciones y oportunidades de mejora en la gestión sostenible.
+    p.mb-5(data-aos="fade-right") La incorporación de estas tecnologías fortalece la eficiencia operativa del establecimiento; sin embargo, su implementación debe acompañarse de mecanismos que permitan comprobar los resultados alcanzados. La medición periódica facilita la identificación de avances, desviaciones y oportunidades de mejora en la gestión sostenible.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .cajon.color-secundario.p-lg-5.p-4
           h4.mb-3 Medición del desempeño sostenible
           p.mb-0 La implementación operativa del turismo sostenible requiere indicadores cuantitativos de desempeño, como los KPI ambientales y sociales, que permitan medir la reducción real del consumo por huésped-noche y asegurar la transparencia durante las auditorías de control normativo.
 
-    p.mb-4 La aplicación de prácticas sostenibles debe complementarse con procesos de evaluación externa que permitan verificar el cumplimiento de los requisitos establecidos. La obtención de credenciales de sostenibilidad constituye un procedimiento técnico estructurado, orientado a garantizar la transparencia y la veracidad de la gestión ambiental de la empresa.
+    p.mb-4(data-aos="fade-right") La aplicación de prácticas sostenibles debe complementarse con procesos de evaluación externa que permitan verificar el cumplimiento de los requisitos establecidos. La obtención de credenciales de sostenibilidad constituye un procedimiento técnico estructurado, orientado a garantizar la transparencia y la veracidad de la gestión ambiental de la empresa.
 
-    p.mb-5 La siguiente ruta presenta las fases fundamentales de diagnóstico, implementación y auditoría que conforman el proceso de certificación.
+    p.mb-5(data-aos="fade-left") La siguiente ruta presenta las fases fundamentales de diagnóstico, implementación y auditoría que conforman el proceso de certificación.
 
     .tit.mb-5(data-aos="fade-right")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
@@ -215,28 +215,28 @@
               figure
                 img.img-a.img-t(src='@/assets/curso/tema1/18.svg')
         
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-5.d-none.d-lg-block
         img(src="@/assets/curso/tema1/19.png")
       .col-lg-7
         p.mb-4 La validez y el reconocimiento de las certificaciones dependen de la legitimidad y del respaldo institucional de los organismos encargados de evaluar la conformidad. Estas entidades operan bajo normas internacionales de acreditación, como las directrices de la familia ISO/IEC 17065, que buscan garantizar imparcialidad, competencia técnica y objetividad en los procesos de evaluación (Organización Mundial del Turismo, 2022).
         p.mb-0 En Colombia y Latinoamérica, el ecosistema de certificación está conformado por entidades nacionales e internacionales autorizadas por los organismos competentes, como el Organismo Nacional de Acreditación de Colombia (ONAC). Entre los actores representativos se encuentran institutos técnicos de normalización, corporaciones internacionales de certificación ambiental y agencias especializadas en turismo responsable.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .cajon.color-primario.p-lg-5.p-4
           h4.mb-3 Verificación del ente certificador
           p.mb-0 La dirección del establecimiento debe verificar que el organismo certificador seleccionado cuente con acreditación vigente ante el ONAC o ante las autoridades competentes. Esta verificación permite asegurar que el certificado emitido tenga validez legal y reconocimiento comercial ante los operadores turísticos globales.
 
-    p.mb-4 La sostenibilidad hotelera no opera de forma aislada, sino que se articula con el desarrollo de los Destinos Turísticos Sostenibles (DTS). Un destino turístico certificado gestiona integralmente su territorio y busca equilibrar la afluencia de visitantes con la capacidad de carga de los ecosistemas, la infraestructura urbana, la preservación cultural y el bienestar de la comunidad residente (ICONTEC, 2024).
+    p.mb-4(data-aos="fade-right") La sostenibilidad hotelera no opera de forma aislada, sino que se articula con el desarrollo de los Destinos Turísticos Sostenibles (DTS). Un destino turístico certificado gestiona integralmente su territorio y busca equilibrar la afluencia de visitantes con la capacidad de carga de los ecosistemas, la infraestructura urbana, la preservación cultural y el bienestar de la comunidad residente (ICONTEC, 2024).
 
-    p.mb-5 La relación entre los establecimientos de alojamiento y los destinos certificados genera diferentes beneficios para la competitividad territorial.
+    p.mb-5(data-aos="fade-left") La relación entre los establecimientos de alojamiento y los destinos certificados genera diferentes beneficios para la competitividad territorial.
 
     .tit.mb-5(data-aos="fade-right")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Alojamiento y destinos turísticos certificados
 
-    .row.justify-content-center.align-items-stretch.mb-0(data-aos="fade-right")
+    .row.justify-content-center.align-items-stretch.mb-0(data-aos="fade-left")
       .col-lg-4.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4.mb-md-4
         .bg3.p-4.h-100
           img.img-t.img-a.mb-4(src='@/assets/curso/tema1/20.svg')

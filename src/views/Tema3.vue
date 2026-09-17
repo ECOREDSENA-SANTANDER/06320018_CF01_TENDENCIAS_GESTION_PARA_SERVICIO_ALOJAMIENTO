@@ -159,15 +159,15 @@
               figure
                 img.img-a.img-t(src='@/assets/curso/tema3/12.svg')
 
-    p.mb-5 La gestión articulada de estas fases permite comprender la experiencia como un proceso continuo y no como una serie de servicios aislados. Para fortalecer este proceso, los establecimientos pueden utilizar la información obtenida durante las diferentes interacciones, siempre bajo criterios de uso ético y responsable.
+    p.mb-5(data-aos="fade-right") La gestión articulada de estas fases permite comprender la experiencia como un proceso continuo y no como una serie de servicios aislados. Para fortalecer este proceso, los establecimientos pueden utilizar la información obtenida durante las diferentes interacciones, siempre bajo criterios de uso ético y responsable.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .cajon.color-secundario.p-lg-5.p-4
           h4.mb-3 Hiperpersonalización basada en datos
           p.mb-0 La recopilación ética de información mediante los sistemas de gestión permite anticipar las necesidades del huésped. Conocer aspectos como la temperatura preferida de la habitación, el tipo de almohada, las restricciones alimentarias o la bebida favorita facilita la personalización del servicio.
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema3/13.png')
       .col-lg-7

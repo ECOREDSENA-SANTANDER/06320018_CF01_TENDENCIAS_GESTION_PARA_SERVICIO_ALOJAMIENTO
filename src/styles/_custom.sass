@@ -324,15 +324,30 @@ figcaption
   border-bottom: none
   .tabs-b__tab__title 
     font-size: 0.99em
-.tabs-b.color-acento-contenido .tabs-b__tab--active 
-  border-top: 6px solid #FE8938 !important  
+.color-acento-contenido .tabs-b__tab--active
+  border-top: 6px solid #FE8938 !important
   background-color: #FFF7EA
   border-right: 4px solid #9CC2C9
   border-bottom: none
-  //&
-    .img1
-      cursor: pointer
-      content: url("../assets/curso/tema2/19.svg") !important
+.tabs-tema-2.color-acento-contenido .tabs-b__tab--active
+  &:nth-child(1) img
+    content: url('../assets/curso/tema2/20.svg')
+  &:nth-child(2) img
+    content: url('../assets/curso/tema2/21.svg')
+  &:nth-child(3) img
+    content: url('../assets/curso/tema2/22.svg')
+  &:nth-child(4) img
+    content: url('../assets/curso/tema2/23.svg')
+.tabs-tema-4.color-acento-contenido .tabs-b__tab--active
+  &:nth-child(1) img
+    content: url('../assets/curso/tema4/32.svg')
+  &:nth-child(2) img
+    content: url('../assets/curso/tema4/33.svg')
+  &:nth-child(3) img
+    content: url('../assets/curso/tema4/34.svg')
+  &:nth-child(4) img
+    content: url('../assets/curso/tema4/35.svg')
+  
 
 .bloque-texto-g.color-secundario 
     background-color: #CEF1D4
