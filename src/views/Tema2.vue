@@ -8,11 +8,11 @@
       h1 Accesibilidad turística en los servicios de alojamiento
 
     .row.justify-content-center.align-items-center.mb-0
-      .col-lg-5.mb-lg-0.mb-0.pe-lg-0.d-none.d-lg-block(data-aos="fade-right")
-        img(src='@/assets/curso/tema2/1.png')
-      .col-lg-7.ps-lg-0(data-aos="fade-left")
-        .bg6.mb-0.p-4.p-lg-4
-          img.img-t.mb-4.mx-lg-4.mt-lg-3(src='@/assets/curso/tema2/2.svg')
+      .col-lg-6.mb-lg-0.mb-0.d-none.d-lg-block(data-aos="fade-right")
+        img.img-t(src='@/assets/curso/tema2/1.png')
+      .col-lg-6(data-aos="fade-left")
+        .bg6.mb-0.p-4.cen
+          img.img-t.mb-4.mx-lg-4(src='@/assets/curso/tema2/2.svg')
           p.mb-4.mx-lg-4 La accesibilidad turística constituye un pilar fundamental en la modernización de los establecimientos de alojamiento, debido a que busca garantizar que la infraestructura, los servicios y la información puedan ser utilizados por todas las personas en condiciones de autonomía, seguridad, comodidad y dignidad, sin discriminación de ninguna naturaleza (Organización Mundial de la Salud, 2011).
           p.mb-0.mx-lg-4.mb-lg-1 Su implementación implica superar una visión limitada a la adecuación física de los espacios y adoptar un enfoque integral que contemple el diseño universal, la atención inclusiva, la comunicación accesible y el cumplimiento de los requisitos técnicos aplicables. De esta manera, la accesibilidad contribuye tanto a la equidad en la prestación del servicio como al fortalecimiento operativo y comercial de los establecimientos.
 
@@ -22,7 +22,7 @@
       h2 2.1 Antecedentes, principios de accesibilidad y diseño universal
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/3.png')
       .col-lg-7
         p.mb-4 El concepto de accesibilidad en la hotelería ha evolucionado desde una perspectiva asistencialista y segregada, centrada principalmente en la instalación de rampas para personas usuarias de silla de ruedas, hacia el modelo del diseño universal. Este paradigma, consolidado a finales del siglo XX y regulado mediante normas internacionales, establece que los entornos construidos y los servicios deben concebirse desde su origen para ser utilizados por el mayor número posible de personas, independientemente de su edad, estatura o condición de discapacidad física, sensorial o cognitiva (ICONTEC, 2017).
@@ -35,29 +35,29 @@
       h3.mb-0 Principios del diseño universal en el alojamiento
 
     TabsB.color-acento-contenido.mb-5(data-aos="fade-left")
-      .py-4.py-md-5(titulo="Uso equitativo" :icono="require_src('@/assets/curso/tema2/4.svg')")
+      .py-4.py-md-5.img1(titulo="Uso equitativo" :icono="require_src('@/assets/curso/tema2/4.svg')")
         .row.justify-content-center.align-items-start.mb-0
-          .col-lg-4.col-md-9.col-10.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema2/8.png', alt='Texto que describa la imagen')
-          .col-lg-7
+          .col-lg-4.col-md-9.col-10.order-md-2.order-2.order-lg-1
+            img(src='@/assets/curso/tema2/8.png')
+          .col-lg-7.order-md-1.order-1.order-lg-2.mb-lg-0.mb-4
             p.mb-0 Los espacios y servicios deben ser utilizables y comercialmente accesibles para personas con diversas capacidades, evitando la estigmatización o segregación de las personas usuarias.
       .py-4.py-md-5(titulo="Flexibilidad en el uso" :icono="require_src('@/assets/curso/tema2/5.svg')")
         .row.justify-content-center.align-items-start.mb-0
-          .col-lg-4.col-md-9.col-10.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema2/9.png', alt='Texto que describa la imagen')
-          .col-lg-7
+          .col-lg-4.col-md-9.col-10.order-md-2.order-2.order-lg-1
+            img(src='@/assets/curso/tema2/9.png')
+          .col-lg-7.order-md-1.order-1.order-lg-2.mb-lg-0.mb-4
             p.mb-0 El diseño debe adaptarse a un amplio rango de preferencias y habilidades individuales, permitiendo diferentes modalidades de interacción con el mobiliario y la tecnología del hotel.
       .py-4.py-md-5(titulo="Uso simple e intuitivo" :icono="require_src('@/assets/curso/tema2/6.svg')")
         .row.justify-content-center.align-items-start.mb-0
-          .col-lg-4.col-md-9.col-10.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema2/10.png', alt='Texto que describa la imagen')
-          .col-lg-7
+          .col-lg-4.col-md-9.col-10.order-md-2.order-2.order-lg-1
+            img(src='@/assets/curso/tema2/10.png')
+          .col-lg-7.order-md-1.order-1.order-lg-2.mb-lg-0.mb-4
             p.mb-0 La operación de puertas, controles domóticos, sistemas de iluminación y cerraduras electrónicas debe ser fácil de comprender, independientemente de la experiencia, los conocimientos o la capacidad lingüística del huésped.
       .py-4.py-md-5(titulo="Información perceptible" :icono="require_src('@/assets/curso/tema2/7.svg')")
         .row.justify-content-center.align-items-start.mb-0
-          .col-lg-4.col-md-9.col-10.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema2/11.png', alt='Texto que describa la imagen')
-          .col-lg-7
+          .col-lg-4.col-md-9.col-10.order-md-2.order-2.order-lg-1
+            img(src='@/assets/curso/tema2/11.png')
+          .col-lg-7.order-md-1.order-1.order-lg-2.mb-lg-0.mb-4
             p.mb-0 La señalización y la información institucional deben presentarse mediante diferentes modalidades sensoriales, como la visual, la táctil y la auditiva, para facilitar su comprensión por parte de personas con discapacidad sensorial.
 
     p.mb-5 La aplicación de estos principios debe extenderse a las diferentes áreas y servicios del establecimiento. No basta con adecuar espacios aislados, debido a que la accesibilidad depende de la continuidad de los recorridos y de la posibilidad de desplazarse de forma autónoma desde el ingreso hasta las habitaciones y demás zonas de servicio.
@@ -120,7 +120,7 @@
     p.mb-5 La accesibilidad también representa una oportunidad de posicionamiento para la industria hotelera. La Organización Mundial de la Salud (2011) señala que aproximadamente el 15 % de la población mundial experimenta alguna forma de discapacidad. Esta proporción, sumada al incremento de la esperanza de vida, evidencia la necesidad de disponer de servicios que respondan a diferentes condiciones de movilidad, comunicación y percepción.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/16.png')
       .col-lg-7
         p.mb-4 Las personas con necesidades de accesibilidad suelen viajar acompañadas por familiares o asistentes, lo que puede incrementar el gasto por grupo y favorecer la ocupación hotelera durante periodos de menor demanda. Por esta razón, los establecimientos que no cuentan con condiciones accesibles pueden limitar su capacidad de atender nuevos segmentos de mercado y afectar su posicionamiento en el sector turístico contemporáneo.

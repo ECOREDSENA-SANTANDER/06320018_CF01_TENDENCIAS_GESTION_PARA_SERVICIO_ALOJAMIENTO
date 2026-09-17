@@ -3,21 +3,21 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 15%
-    left: -20%
-    width: 20%
-  &-2
+    top: 30%
+    left: -10%
+    width: 24%
+  &-3
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
     top: 70%
-    right: 70%
-    width: 20%
-  &-3
+    right: 10%
+    width: 30%
+  &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    left: 70%
-    width: 20%
+    top: 20%
+    left: 65%
+    width: 30%
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -38,7 +38,7 @@
   width: 23%
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+  color: black !important   
 .barra-avance__boton--regresar span 
     color: black !important
 
@@ -71,7 +71,7 @@ figcaption
 .titulo-sexto
   border-left: 10px solid
   padding: 6px 0 6px 8px
-  border-left-color: #FF9684 !important
+  border-left-color: #8CE6FE !important
 
 .titulo-segundo:after 
   content: ''
@@ -85,7 +85,7 @@ figcaption
 .cen
   display: flex
   flex-direction: column
-  align-items: center
+  align-items: flex-start
   justify-content: center
   
 .img-t
@@ -98,6 +98,11 @@ figcaption
 
 .bg1
   background-color: #C5EDF4
+  min-height: 471px
+  @media only screen and (max-width: 1023px)
+    min-height: auto
+  @media only screen and (min-width: 1024px) 
+    margin-left: -6.5rem
 
 .cajon.color-primario
   background-color: #EBF9FB
@@ -106,20 +111,31 @@ figcaption
 
 .bg2
   background-color: #CEF1D4
-  min-height: 288.89px
+  min-height: 318.25px
   display: flex
   flex-direction: column
   justify-content: center
-  @media only screen and (max-width: 767px)
-    min-height: auto 
-  @media only screen and (min-width: 768px) and (max-width: 1023px)
+  @media only screen and (max-width: 1023px)
     min-height: auto
+  @media only screen and (min-width: 1024px) 
+    margin-left: -3.4rem
+
+.bg22
+  background-color: #CEF1D4
+  min-height: 370.15px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  @media only screen and (max-width: 1023px)
+    min-height: auto
+  @media only screen and (min-width: 1024px) 
+    margin-left: -3.4rem
 
 .tit
   background-color: #5CD172
   border-radius: 50px 
   width: fit-content
-  padding: 8px 30px 8px 50px
+  padding: 3px 30px 3px 50px
   position: relative
   display: inline-flex
   align-items: center
@@ -131,7 +147,7 @@ figcaption
   width: 50px
   height: 50px
   position: absolute
-  top: 37%
+  top: 18%
   left: -18px 
   transform: translateY(-50%)
   object-fit: contain
@@ -139,7 +155,7 @@ figcaption
   @media only screen and (min-width: 768px) and (max-width: 1023px)
     width: 55px
     height: 55px
-    top: 40%
+    top: 10%
   @media only screen and (max-width: 767px)
     top: 48%
     width: 55px
@@ -189,15 +205,12 @@ figcaption
   background-repeat: no-repeat
   background-position: center
   margin-inline: -3.4rem
-  @media only screen and (min-width: 1024px)
-    margin-bottom: -44px !important
+  margin-bottom: -44px !important
   @media screen and (max-width: 992px)
     margin-inline: -3rem
   @media screen and (max-width: 767px)
-    margin-inline: -2.4rem
-    margin-right: -2rem
-    margin-left: -2rem
-    background-size:  100% 100%
+    margin-inline: -2rem
+    background-size: 100% 100%
 
 .bloque-texto-g.color-primario
   border-radius: 0px
@@ -295,6 +308,11 @@ figcaption
 
 .bg6
   background-color:#CEF1D4
+  min-height: 471px
+  @media only screen and (max-width: 1023px)
+    min-height: auto
+  @media only screen and (min-width: 1024px) 
+    margin-left: -6.5rem
 
 .tabs-b__tab 
   padding: 20px
@@ -311,9 +329,10 @@ figcaption
   background-color: #FFF7EA
   border-right: 4px solid #9CC2C9
   border-bottom: none
-  //img
-    cursor: pointer
-    content: url("../assets/curso/tema2/19.svg") !important
+  //&
+    .img1
+      cursor: pointer
+      content: url("../assets/curso/tema2/19.svg") !important
 
 .bloque-texto-g.color-secundario 
     background-color: #CEF1D4
@@ -355,5 +374,53 @@ figcaption
     transition: all 0.3s ease
     cursor: pointer
 
+.color-acento-botones
+  .tabs-a__tab
+    padding: 12px 13px
+    font-size: 16px  
+    white-space: normal 
+    line-height: 1.4
+    min-height: 40px 
+  @media (min-width: 1200px) 
+    .col-xl-3
+      flex: 0 0 auto
+      width: 35%
+    .col-xl-9
+      flex: 0 0 auto
+      width: 65%
+.tabs-a__tab:last-child 
+  margin-bottom: 0 !important
+  background-color: #E8F4DE
+  color: black!important
+.color-a
+  background-color: #FFF7EA
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #FBB132 !important
+  color: black !important
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before 
+  background-color:  #FBB132 !important
+
+.bg8
+  background-color: #EBF9FB
+  border-radius: 15px
+
+.bg9
+  background-color: #EEFBF1
+  border-radius: 15px
+
+.tarjeta-audio 
+  border: 3px solid
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
+  color: black
+.fst-italic 
+  font-style: normal !important
+.tarjeta.color-secundario i
+  color: #000
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto
+  color: black
+  font-style: normal !important
+.tarjeta.color-secundario * 
+  color: #000
 
 
+  

@@ -77,56 +77,39 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Tendencias hoteleras y experiencia del huésped',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Subtema 1',
+            titulo:
+              'Infraestructura, diseño hotelero y tipologías de clientes actuales',
             hash: 't_3_1',
           },
           {
             numero: '3.2',
-            titulo: 'Subtema 1',
+            titulo: 'Evolución de los servicios y economía de experiencias',
             hash: 't_3_2',
-          },
-          {
-            numero: '3.3',
-            titulo: 'Subtema 1',
-            hash: 't_3_3',
-          },
-          {
-            numero: '3.4',
-            titulo: 'Subtema 1',
-            hash: 't_3_4',
           },
         ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Tema 4',
+        titulo:
+          'Tecnología y <em>marketing</em> aplicados a la gestión hotelera',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '4.1',
-            titulo: 'Subtema 1',
+            titulo:
+              'Sistemas de gestión, herramientas tecnológicas y automatización',
             hash: 't_4_1',
           },
           {
             numero: '4.2',
-            titulo: 'Subtema 1',
+            titulo: '<em>Marketing</em> hotelero, neuromarketing y publicidad',
             hash: 't_4_2',
-          },
-          {
-            numero: '4.3',
-            titulo: 'Subtema 1',
-            hash: 't_4_3',
-          },
-          {
-            numero: '4.4',
-            titulo: 'Subtema 1',
-            hash: 't_4_4',
           },
         ],
       },

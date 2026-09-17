@@ -6,15 +6,15 @@
       .titulo-principal__numero
         span 1
       h1 Gestión sostenible y certificación en los servicios de alojamiento
-      
+
     .row.justify-content-center.align-items-center.mb-0
-      .col-lg-5.mb-lg-0.mb-0.pe-lg-0.d-none.d-lg-block(data-aos="fade-right")
-        img(src='@/assets/curso/tema1/1.png')
-      .col-lg-7.ps-lg-0(data-aos="fade-left")
-        .bg1.mb-0.p-4.p-lg-4
-          img.img-t.mb-4.mx-lg-4.mt-lg-3(src='@/assets/curso/tema1/2.svg')
+      .col-lg-6.mb-lg-0.mb-0.d-none.d-lg-block(data-aos="fade-right")
+        img.img-t(src='@/assets/curso/tema1/1.png')
+      .col-lg-6(data-aos="fade-left")
+        .bg1.mb-0.p-4.cen
+          img.img-t.mb-4.mx-lg-4(src='@/assets/curso/tema1/2.svg')
           p.mb-4.mx-lg-4 La gestión moderna de los establecimientos de alojamiento se fundamenta en la relación entre la sostenibilidad y la calidad en el servicio, dos ejes estratégicos que influyen en la viabilidad y competitividad de la empresa turística. Su implementación requiere articular la operación del establecimiento con la conservación del entorno, las dinámicas socioeconómicas locales, el cumplimiento normativo y la satisfacción integral del huésped.
-          p.mb-0.mx-lg-4.mb-lg-1 Este apartado aborda los conceptos que orientan la gestión sostenible, los sellos ambientales y las normas técnicas aplicables a la hotelería. También presenta las dimensiones operativas del turismo sostenible, las tecnologías orientadas a la eficiencia energética, el proceso de certificación y la relación de los establecimientos de alojamiento con los destinos turísticos certificados.
+          p.mb-0.mx-lg-4 Este apartado aborda los conceptos que orientan la gestión sostenible, los sellos ambientales y las normas técnicas aplicables a la hotelería. También presenta las dimensiones operativas del turismo sostenible, las tecnologías orientadas a la eficiencia energética, el proceso de certificación y la relación de los establecimientos de alojamiento con los destinos turísticos certificados.
 
 
     separador
@@ -35,23 +35,23 @@
           h4.mb-3 Integración de calidad y sostenibilidad
           p.mb-0 La integración de los sistemas de gestión de calidad y sostenibilidad no debe considerarse un procedimiento opcional ni un elemento publicitario superficial, sino un requisito crítico de competitividad que previene riesgos legales, disminuye la vulnerabilidad ante las fluctuaciones del mercado y favorece la permanencia del establecimiento en el sector turístico internacional.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-start.mb-5
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/4.png')
       .col-lg-9
         .row.mb-4
-          .col-lg-5.col-md-9.col-12.mb-lg-0.mb-0.pe-lg-0.d-none.d-lg-block(data-aos="fade-right")
-            img(src='@/assets/curso/tema1/5.svg')
-          .col-lg-7.ps-lg-0(data-aos="fade-left")
+          .col-lg-6.col-md-9.col-12.mb-lg-0.mb-0.d-none.d-lg-block(data-aos="fade-right")
+            img.img-t(src='@/assets/curso/tema1/5.svg')
+          .col-lg-6(data-aos="fade-left")
             .bg2.mb-0.p-4
-              p.mb-0.mx-lg-3 Los sellos ambientales y las certificaciones ecológicas permiten que los establecimientos de alojamiento validen ante sus grupos de interés el compromiso adquirido con el desarrollo sostenible. Estos distintivos funcionan como mecanismos de verificación objetiva, protegen al consumidor frente a prácticas de comunicación engañosa o #[em greenwashing] y acreditan el cumplimiento de parámetros de desempeño ambiental y social.
+              p.mb-0.mx-lg-4 Los sellos ambientales y las certificaciones ecológicas permiten que los establecimientos de alojamiento validen ante sus grupos de interés el compromiso adquirido con el desarrollo sostenible. Estos distintivos funcionan como mecanismos de verificación objetiva, protegen al consumidor frente a prácticas de comunicación engañosa o #[em greenwashing] y acreditan el cumplimiento de parámetros de desempeño ambiental y social.
         p.mb-0 Para reconocer los diferentes enfoques aplicados en el sector hotelero, la siguiente información presenta tres referentes relacionados con la sostenibilidad en los establecimientos de alojamiento.
 
     .tit.mb-5(data-aos="fade-right")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Referentes de sostenibilidad para el alojamiento
 
-    .row.justify-content-center.align-items-center.mb-5.mb-lg-0(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-0(data-aos="fade-left")
       .col-lg-12
         TabsC.color-primario
           .p-lg-5.p-4.fd3(titulo="Sello Ambiental Colombiano (SAC)")
@@ -80,7 +80,7 @@
             p.mb-4 La adopción de estos distintivos incide de manera directa en el posicionamiento comercial del establecimiento, facilita su inserción en canales de distribución global especializados en turismo responsable y favorece la captación de segmentos de mercado con alta fidelidad hacia marcas comprometidas con el entorno.
             p.mb-4 Además de los sellos y certificaciones, la actividad hotelera en Colombia se encuentra orientada por las Normas Técnicas Colombianas (NTC) y las Normas Técnicas Sectoriales (NTS), expedidas por el organismo nacional de normalización en coordinación con las autoridades ministeriales correspondientes. Estas disposiciones establecen parámetros de calidad, seguridad, sostenibilidad y desempeño que condicionan la operación de los prestadores de servicios turísticos (ICONTEC, 2024).
             p.mb-0 La aplicación de la NTC 6503 requiere que los establecimientos de alojamiento documenten, implementen y mantengan un Sistema de Gestión de Sostenibilidad estructurado en dimensiones ambientales, socioeconómicas y culturales. Su aplicación práctica implica integrar estas dimensiones en la gestión de los recursos, las relaciones con las comunidades locales y la protección del patrimonio del destino.
-          .col-lg-4
+          .col-lg-4.d-none.d-lg-block
             img(src='@/assets/curso/tema1/9.png')
 
 
@@ -104,7 +104,7 @@
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Dimensiones de la operación turística sostenible
 
-    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-8
         AcordionA.press(tipo="b" clase-tarjeta="tarjeta tarjeta--grey")
           .row.align-items-center(titulo="Gestión integral de recursos naturales y ecosistemas")
@@ -187,7 +187,7 @@
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Ruta de certificación en sostenibilidad
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-10
         PasosA.color-acento-contenido.mb-0(tipo="n")
           .row.justify-content-center.align-items-center.mb-0
@@ -216,7 +216,7 @@
                 img.img-a.img-t(src='@/assets/curso/tema1/18.svg')
         
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+      .col-lg-5.d-none.d-lg-block
         img(src="@/assets/curso/tema1/19.png")
       .col-lg-7
         p.mb-4 La validez y el reconocimiento de las certificaciones dependen de la legitimidad y del respaldo institucional de los organismos encargados de evaluar la conformidad. Estas entidades operan bajo normas internacionales de acreditación, como las directrices de la familia ISO/IEC 17065, que buscan garantizar imparcialidad, competencia técnica y objetividad en los procesos de evaluación (Organización Mundial del Turismo, 2022).
